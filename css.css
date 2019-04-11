@@ -1,3 +1,23 @@
+.homebutton{
+    text-align: center;
+    background: blue;
+    width:50px;
+    font-size:3vh;
+    text-decoration:none;
+    color:white;
+    margin:10% 0 0 0;
+    
+}
+
+body{
+    width: auto;
+    height:
+}
+
+
+
+
+
 .game {
     display: flex;
     flex-direction: column;
@@ -11,8 +31,8 @@
     width: 100px;
     height: 100px;
     margin: 10px;
-    background: darkgrey;
-    border-radius: 15px;
+    background: grey;
+    border-radius: 5px;
 }
 
 .scoring {
@@ -23,7 +43,7 @@
 }
 
 .scoreboard {
-    background:grey;
+    background:#d1ccca;
     color:black;
     padding: 10px 20px;
     border: 3px solid black;
@@ -49,7 +69,7 @@
     height: 65px;
     padding-top: 35px;
     text-align: center;
-    background: #000000;
+    background: #d1ccca;
     border: 2x solid #3E2723;
     border-radius: 5px;
     font-size: 30px;
@@ -68,7 +88,7 @@ h3 {
     width: 450px;
     height: 450px;
     border: 15px solid black;
-    background: grey;
+    background: #d1ccca;
     border-radius: 20px;
 }
 
