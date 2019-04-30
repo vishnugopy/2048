@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+
+
+
 .homebutton{
-    text-align: center;
-    background: blue;
+    background:white;
     width:50px;
     font-size:3vh;
     text-decoration:none;
-    color:white;
-    margin:10% 0 0 0;
+    color:black;
+    border: 3px solid black;
+    padding:30px;
+    border-radius: 5px;
+    margin:190px;
+    
     
 }
 
 body{
+    padding-top:15%;
     width: auto;
-    height:
+    height:100%;
+    font-family: 'Orbitron', sans-serif;
 }
 
 
@@ -23,6 +34,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .emptycell {
@@ -31,7 +43,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 10px;
-    background: grey;
+    background:lightblue;
     border-radius: 5px;
 }
 
@@ -69,8 +81,8 @@ body{
     height: 65px;
     padding-top: 35px;
     text-align: center;
-    background: #d1ccca;
-    border: 2x solid #3E2723;
+    background:lightblue;
+    border: 2x solid blue;
     border-radius: 5px;
     font-size: 30px;
     position: absolute;
@@ -90,6 +102,7 @@ h3 {
     border: 15px solid black;
     background: #d1ccca;
     border-radius: 20px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .two {
@@ -120,7 +133,7 @@ h3 {
 }
 
 .sixteen {
-    background-image: linear-gradient(to right top,#b21f1f,#F3F9A7);
+    background-image: linear-gradient(to right top,#b21f1f,yellow);
     font-size: 50px;
     height: 85px;
     padding-top: 15px;
@@ -148,7 +161,7 @@ h3 {
 
 .oneTwentyEight {
     background-image: linear-gradient(to right top,#7F00FF,#E100FF);
-    font-size: 50px;
+    font-size: 43px;
     height: 85px;
     padding-top: 15px;
     color:white;
@@ -156,19 +169,21 @@ h3 {
 }
 
 .twoFiveSix {
-    background: radial-gradient(orange, rgb(243, 187, 83));
+    background: linear-gradient(to right top,#7F00FF,#E100FF);
     font-size: 40px;
     color: white;
     height: 75px;
     padding-top: 25px;
+    border: 1px solid white;
 }
 
 .fiveOneTwo {
-    background: radial-gradient(rgb(190, 106, 50), rgb(223, 137, 79));
+    background: linear-gradient(to right top,blue,lightgreen);
     font-size: 40px;
     color: white;
     height: 75px;
     padding-top: 25px;
+    border: 1px solid white;
 }
 
 .one024 {
@@ -176,6 +191,7 @@ h3 {
     font-size: 35px;
     height: 70px;
     padding-top: 30px;
+    border: 1px solid white;
 }
 
 .two048 {
@@ -184,6 +200,7 @@ h3 {
     color: #FBE9E7;
     height: 70px;
     padding-top: 30px;
+    border: 1px solid white;
 }
 
 .four096 {
@@ -192,6 +209,7 @@ h3 {
     color: #FBE9E7;
     height: 70px;
     padding-top: 30px;
+    border: 1px solid white;
 }
 
 .eight192 {
@@ -200,10 +218,12 @@ h3 {
     color: #FBE9E7;
     height: 70px;
     padding-top: 30px;
+    border: 1px solid white;
 }
 
 .large {
     background: radial-gradient(#99AAE7, #99CCF9);
+    border: 1px solid white;
 }
 
 .alertbox {
@@ -225,16 +245,18 @@ h3 {
 }
 
 .mode-toggle {
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 20px;
     font-size: 1em;
-    background: grey;
-    color: darkgray;
+    background: white;
+    color: black;
+    border:1px solid black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .btn-selected {
-    background: #4444cc;
-    color: white;
+    background:red;
+    color: black;
 }
 
 @keyframes showing {
@@ -259,12 +281,13 @@ h3 {
 }
 
 .continue {
-    border: 1px solid #abc;
-    border-radius: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
     padding: 5px 25px;
-    color: white;
+    color:black;
     font-size: 18px;
-    background: rgb(218, 48, 36);
+    background:white;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #continue {
@@ -272,14 +295,14 @@ h3 {
 }
 
 .continue:hover {
-    border: 1px solid red;
-    background: #aabbcc;
-    color: indigo;
+    border: 1px solid white;
+    background: royalblue;
+    color: white;
 }
 
 @media (max-width:500px) {
     .game {
-        transform: scale(0.85);
+        transform: scale(2);
         margin-top: -50px;
     }
     h1 {
@@ -301,7 +324,7 @@ h3 {
 
 @media (max-width:330px) {
     .game {
-        transform: scale(0.6);
+        transform: scale(1);
         margin-top: -100px;
     }
     h1 {
